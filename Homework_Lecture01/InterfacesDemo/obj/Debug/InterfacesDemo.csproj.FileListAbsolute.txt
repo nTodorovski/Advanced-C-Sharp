@@ -1,0 +1,7 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\bin\Debug\InterfacesDemo.exe.config
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\bin\Debug\InterfacesDemo.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\bin\Debug\InterfacesDemo.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\obj\Debug\InterfacesDemo.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\obj\Debug\InterfacesDemo.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\obj\Debug\InterfacesDemo.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\Homework CSharpAdvanced - Class2\InterfacesDemo\InterfacesDemo\obj\Debug\InterfacesDemo.pdb
