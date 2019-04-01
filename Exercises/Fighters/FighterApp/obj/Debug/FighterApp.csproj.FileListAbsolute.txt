@@ -1,0 +1,7 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\bin\Debug\FighterApp.exe.config
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\bin\Debug\FighterApp.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\bin\Debug\FighterApp.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\obj\Debug\FighterApp.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\obj\Debug\FighterApp.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\obj\Debug\FighterApp.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g2\Class 2\Homework\FighterApp\obj\Debug\FighterApp.pdb
