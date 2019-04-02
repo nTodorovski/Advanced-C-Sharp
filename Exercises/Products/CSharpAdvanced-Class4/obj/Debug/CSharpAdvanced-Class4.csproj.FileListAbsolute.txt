@@ -1,0 +1,7 @@
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe.config
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.exe
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\bin\Debug\CSharpAdvanced-Class4.pdb
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csprojAssemblyReference.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.csproj.CoreCompileInputs.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.exe
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class4\CSharpAdvanced-Class4 - Task for Students\CSharpAdvanced-Class4\obj\Debug\CSharpAdvanced-Class4.pdb
