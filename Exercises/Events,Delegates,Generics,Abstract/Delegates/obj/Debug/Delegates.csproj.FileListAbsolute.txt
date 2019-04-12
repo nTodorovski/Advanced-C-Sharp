@@ -1,0 +1,6 @@
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\bin\Debug\Delegates.exe.config
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\bin\Debug\Delegates.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\bin\Debug\Delegates.pdb
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\obj\Debug\Delegates.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\obj\Debug\Delegates.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\Delegates\obj\Debug\Delegates.pdb

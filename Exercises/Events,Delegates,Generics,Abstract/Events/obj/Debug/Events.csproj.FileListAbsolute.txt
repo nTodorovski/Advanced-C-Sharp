@@ -1,0 +1,7 @@
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\bin\Debug\Events.exe.config
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\bin\Debug\Events.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\bin\Debug\Events.pdb
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\obj\Debug\Events.csprojAssemblyReference.cache
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\obj\Debug\Events.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\obj\Debug\Events.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\Events\obj\Debug\Events.pdb

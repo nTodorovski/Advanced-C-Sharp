@@ -1,0 +1,7 @@
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\bin\Debug\ConsoleApp142342.exe.config
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\bin\Debug\ConsoleApp142342.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\bin\Debug\ConsoleApp142342.pdb
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\obj\Debug\Animals.csprojAssemblyReference.cache
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\obj\Debug\Animals.csproj.CoreCompileInputs.cache
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\obj\Debug\ConsoleApp142342.exe
+C:\Users\code\Desktop\filder\ConsoleApp142342\ConsoleApp142342\obj\Debug\ConsoleApp142342.pdb
