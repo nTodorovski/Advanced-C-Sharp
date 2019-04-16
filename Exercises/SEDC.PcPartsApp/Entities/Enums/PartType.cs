@@ -9,25 +9,25 @@ namespace Entities
     public enum PartType
     {
         // Proccessing
-        Cpu,
-        CpuCooler,
+        Cpu=1,
+        CpuCooler=2,
         // Graphics
-        Gpu,
-        GpuCooler,
+        Gpu=3,
+        GpuCooler=4,
         // Casing
-        Case,
-        PowerSuply,
+        Case=5,
+        PowerSuply=6,
         // MainBoard
-        MotherBoard,
-        ConnectionCable,
-        PowerCable,
+        MotherBoard=7,
+        ConnectionCable=8,
+        PowerCable=9,
         // Memory
-        SSD,
-        HDD,
-        RAM,
+        SSD=10,
+        HDD=11,
+        RAM=12,
         // Other
-        Monitor,
-        Mouse,
-        Keyboard
+        Monitor=13,
+        Mouse=14,
+        Keyboard=15
     }
 }

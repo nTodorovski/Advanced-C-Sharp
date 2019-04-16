@@ -4,3 +4,9 @@ C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Enti
 C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
 C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Entities\obj\Debug\Entities.dll
 C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Entities\obj\Debug\Entities.pdb
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\bin\Debug\Entities.dll
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\bin\Debug\Entities.pdb
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\obj\Debug\Entities.dll
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\SEDC.PcPartsApp\Entities\obj\Debug\Entities.pdb

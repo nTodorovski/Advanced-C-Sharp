@@ -15,7 +15,6 @@ namespace ConsoleApp
             var parts = Db.Parts;
             var modules = Db.Modules;
             var configuration = Db.Configurations;
-            Console.ReadLine();
             while (true)
             {
                 Console.Clear();
@@ -33,17 +32,17 @@ namespace ConsoleApp
                         int input1 = int.Parse(Console.ReadLine());
                         if(input1 == 1)
                         {
-                            Service.ShowProductsByPart(Db.Parts);
+                            Service.ShowProductsByPart(parts);
                             break;
                         }
                         else if(input1 == 2)
                         {
-                            Service.ShowByPriceOfPart(Db.Parts);
+                            Service.ShowByPriceOfPart(parts);
                             break;
                         }
                         else if(input1 == 3)
                         {
-                            Service.ShowByTypeOfPart(Db.Parts);
+                            Service.ShowByTypeOfPart(parts);
                             break;
                         }
                         else
