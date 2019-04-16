@@ -1,0 +1,9 @@
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\bin\Debug\Services.dll
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\bin\Debug\Services.pdb
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\bin\Debug\Entities.dll
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\bin\Debug\Entities.pdb
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\obj\Debug\Services.dll
+C:\Users\Nikola\Desktop\sedc7-06-csharpadvanced\g4\Homework\SEDC.PcPartsApp\Services\obj\Debug\Services.pdb

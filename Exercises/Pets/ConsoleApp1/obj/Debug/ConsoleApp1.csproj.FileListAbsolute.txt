@@ -5,3 +5,10 @@ C:\Users\code\source\repos\Solution4\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAss
 C:\Users\code\source\repos\Solution4\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
 C:\Users\code\source\repos\Solution4\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\code\source\repos\Solution4\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Nikola\Desktop\Advanced-C-Sharp\Exercises\Pets\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

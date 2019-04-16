@@ -17,6 +17,12 @@ namespace ConsoleApp1
             PetDb.cats[2].PrintPet();
             Console.WriteLine(PetDb.dogs[0].Age.ConvertDogYears());
             Console.ReadLine();
+            var cats = PetDb.cats;
+            foreach (var item in cats)
+            {
+                Console.WriteLine(item.Name);
+            }
+            Console.ReadLine();
         }
     }
 }
