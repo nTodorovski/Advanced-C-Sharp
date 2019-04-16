@@ -8,11 +8,11 @@ namespace Entities
 {
     public enum ModuleType
     {
-        Processing,
-        Graphics,
-        Casing,
-        MainBoard,
-        Memory,
-        Other
+        Processing=1,
+        Graphics=2,
+        Casing=3,
+        MainBoard=4,
+        Memory=5,
+        Other=6
     }
 }

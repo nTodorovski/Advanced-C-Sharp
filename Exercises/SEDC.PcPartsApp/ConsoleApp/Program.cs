@@ -14,7 +14,7 @@ namespace ConsoleApp
         {
             var parts = Db.Parts;
             var modules = Db.Modules;
-            var configuration = Db.Configurations;
+            var configurations = Db.Configurations;
             while (true)
             {
                 Console.Clear();
@@ -28,21 +28,21 @@ namespace ConsoleApp
                 {
                     while (true)
                     {
-                        Service.ChooseAction();
+                        ServiceParts.ChooseAction();
                         int input1 = int.Parse(Console.ReadLine());
                         if(input1 == 1)
                         {
-                            Service.ShowProductsByPart(parts);
+                            ServiceParts.ShowProductsByPart(parts);
                             break;
                         }
                         else if(input1 == 2)
                         {
-                            Service.ShowByPriceOfPart(parts);
+                            ServiceParts.ShowByPriceOfPart(parts);
                             break;
                         }
                         else if(input1 == 3)
                         {
-                            Service.ShowByTypeOfPart(parts);
+                            ServiceParts.ShowByTypeOfPart(parts);
                             break;
                         }
                         else
@@ -55,10 +55,60 @@ namespace ConsoleApp
                 }
                 else if(input == 2)
                 {
+                    while (true)
+                    {
+                        ServiceParts.ChooseAction();
+                        int input1 = int.Parse(Console.ReadLine());
+                        if (input1 == 1)
+                        {
+                            ServiceModules.ShowProductsByModules(modules);
+                            break;
+                        }
+                        else if (input1 == 2)
+                        {
+                            ServiceModules.ShowByPriceOfModules(modules);
+                            break;
+                        }
+                        else if (input1 == 3)
+                        {
+                            ServiceModules.ShowByTypeModules(modules);
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Enter valid action! Press any key.");
+                            Console.ReadLine();
+                        }
+                    }
                     break;
                 }
                 else if(input == 3)
                 {
+                    while (true)
+                    {
+                        ServiceParts.ChooseAction();
+                        int input1 = int.Parse(Console.ReadLine());
+                        if (input1 == 1)
+                        {
+                            ServiceConfigurations.ShowProductsByConfigurations(configurations);
+                            break;
+                        }
+                        else if (input1 == 2)
+                        {
+                            ServiceConfigurations.ShowByPriceOfConfigurations(configurations);
+                            break;
+                        }
+                        else if (input1 == 3)
+                        {
+                            ServiceConfigurations.ShowByTypeOfConfigurations(configurations);
+                            break;
+                        }
+                        else
+                        {
+                            Console.WriteLine("Enter valid action! Press any key.");
+                            Console.ReadLine();
+                        }
+                    }
                     break;
                 }
                 else

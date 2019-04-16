@@ -1,0 +1,6 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\bin\Debug\Entities for Homework.dll
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\bin\Debug\Entities for Homework.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\obj\Debug\Entities for Homework.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\obj\Debug\Entities for Homework.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\obj\Debug\Entities for Homework.dll
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\Entities for Homework\obj\Debug\Entities for Homework.pdb

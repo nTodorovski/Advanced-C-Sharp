@@ -1,0 +1,30 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe.config
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.dll
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CopyComplete
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb
+D:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe.config
+D:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe
+D:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.pdb
+D:\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.dll
+D:\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.pdb
+D:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csprojAssemblyReference.cache
+D:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cache
+D:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CopyComplete
+D:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
+D:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb
+E:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe.config
+E:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe
+E:\HomeworkLINQ\HomeworkLINQ\bin\Debug\HomeworkLINQ.pdb
+E:\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.dll
+E:\HomeworkLINQ\HomeworkLINQ\bin\Debug\Entities for Homework.pdb
+E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csprojAssemblyReference.cache
+E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cache
+E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CopyComplete
+E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
+E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public static class Service
+    public static class ServiceParts
     {
         public static void ChooseAction()
         {
@@ -16,6 +16,7 @@ namespace Services
             Console.WriteLine("2. By Price");
             Console.WriteLine("3. By Type");
         }
+
         public static void ShowProductsByPart(List<Part> items)
         {
             foreach (var part in items)
@@ -26,45 +27,57 @@ namespace Services
 
         public static void ShowByPriceOfPart(List<Part> items)
         {
-            int min = 0;
-            int max = 0;
             while (true)
             {
-                Console.Clear();
-                Console.WriteLine("Lowest is 8 dollars, Highest is 1500. Enter between these numbers:");
-                Console.WriteLine("Enter minimum price of Part:");
-                min = int.Parse(Console.ReadLine());
-                if(min < 8 || min > 1500)
+                int min = 0;
+                int max = 0;
+                while (true)
                 {
-                    Console.WriteLine("Enter valid number.Press any key.");
+                    Console.Clear();
+                    Console.WriteLine("Lowest is 8 dollars, Highest is 1500. Enter between these numbers:");
+                    Console.WriteLine("Enter minimum price of Part:");
+                    min = int.Parse(Console.ReadLine());
+                    if (min < 8 || min > 1500)
+                    {
+                        Console.WriteLine("Enter valid number.Press any key.");
+                        Console.ReadLine();
+                        continue;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                while (true)
+                {
+                    Console.Clear();
+                    Console.WriteLine("Enter maximum price of Part:");
+                    max = int.Parse(Console.ReadLine());
+                    if (max < min || max > 1500)
+                    {
+                        Console.WriteLine("Enter valid number.Press any key.");
+                        Console.ReadLine();
+                        continue;
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }
+                var itemList = items.Where(x => x.Price > min && x.Price < max).ToList();
+
+                if(itemList.Count == 0)
+                {
+                    Console.WriteLine("There are no parts in that range!Please try again.Press any key.");
                     Console.ReadLine();
                     continue;
                 }
-                else
-                {
-                    break;
-                }
-            }
-            while (true)
-            {
                 Console.Clear();
-                Console.WriteLine("Enter maximum price of Part:");
-                max = int.Parse(Console.ReadLine());
-                if (max < 8 || max > 1500)
+                foreach (var item in itemList)
                 {
-                    Console.WriteLine("Enter valid number.Press any key.");
-                    Console.ReadLine();
-                    continue;
+                    Console.WriteLine($"Name: {item.Name}, Price: {item.Price}");
                 }
-                else
-                {
-                    break;
-                }
-            }
-            var itemList = items.Where(x => x.Price > min && x.Price < max).ToList();
-            foreach (var item in itemList)
-            {
-                Console.WriteLine($"Name: {item.Name}, Price: {item.Price}");
+                break;
             }
         }
 
@@ -149,11 +162,11 @@ namespace Services
             }
         }
 
-        public static void ShowTypes(int number,List<Part> parts)
+        public static void ShowTypes(int number, List<Part> parts)
         {
             foreach (var item in parts)
             {
-                if((int)item.Type == number)
+                if ((int)item.Type == number)
                 {
                     Console.WriteLine($"Name: {item.Name}, Type: {item.Type}");
                 }

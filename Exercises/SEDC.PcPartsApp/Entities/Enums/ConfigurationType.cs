@@ -8,8 +8,8 @@ namespace Entities
 {
     public enum ConfigurationType
     {
-        Standard,
-        Office,
-        Gaming
+        Standard=1,
+        Office=2,
+        Gaming=3
     }
 }
