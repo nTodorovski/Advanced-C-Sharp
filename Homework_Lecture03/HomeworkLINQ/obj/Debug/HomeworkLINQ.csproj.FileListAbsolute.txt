@@ -28,3 +28,13 @@ E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cac
 E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CopyComplete
 E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
 E:\HomeworkLINQ\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe.config
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\bin\Debug\HomeworkLINQ.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\bin\Debug\HomeworkLINQ.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\bin\Debug\Entities for Homework.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\bin\Debug\Entities for Homework.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\obj\Debug\HomeworkLINQ.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\obj\Debug\HomeworkLINQ.csproj.CopyComplete
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\obj\Debug\HomeworkLINQ.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Homework_Lecture03\HomeworkLINQ\obj\Debug\HomeworkLINQ.pdb

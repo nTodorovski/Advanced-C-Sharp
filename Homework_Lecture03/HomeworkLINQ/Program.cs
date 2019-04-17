@@ -178,20 +178,19 @@ namespace HomeworkLINQ
 			Console.WriteLine("-----------------------------------------");
 
 			//15 - print the name of the artist that has most songs that end with letter 'd'
-
-            //OVA NE RABOTI :D
 			Console.WriteLine("Name of the artist that has most songs that end with letter 'd':");
-            var artistNameEndsWithD = Artists
-                .Select(x => new { ArtistName = x.FullName, SongsCount = x.Albums.Select(y => y.Songs.Select(z => z.Name.EndsWith("d"))).Count() }).ToList();
-                //.OrderByDescending(x => x.SongsCount)
-                //.First();
-
-            //var artistNameEndsD = Artists.SelectMany(x => x.Albums)
-            //var songsThatEndsWithD = Albums
-            //    .Select(x => new { AlbumName = x.Name, EndsWithD = x.Songs.Where(y => y.Name.EndsWith("d")).Count() })
-            //    .OrderByDescending(x => x.EndsWithD)
-            //    .First();
-            //Console.WriteLine($"Album Name: {artistNameEndsWithD.ArtistName}, Songs count that ends on 'd': {artistNameEndsWithD.SongsCount}");
+            var maxSongsWithD = 0;
+            var artistNameWithD = String.Empty;
+            foreach (var album in Albums)
+            {
+                var songsWithD = album.Songs.Where(s => s.Name.EndsWith("d")).Count();
+                if (songsWithD > maxSongsWithD)
+                {
+                    maxSongsWithD = songsWithD;
+                    artistNameWithD = Artists.Where(x => x.Id == album.ArtistId).Select(x => x.FullName).FirstOrDefault();
+                }
+            }
+            Console.WriteLine($"{artistNameWithD} has most songs that ends with 'd'");
             Console.WriteLine("-----------------------------------------");
             Console.ReadLine();
 		}
