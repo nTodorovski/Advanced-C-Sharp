@@ -8,7 +8,8 @@ using System.Threading.Tasks;
 namespace ConsoleApp
 {
     public static class Db
-    {
+    { 
+
         public static List<Part> Parts = new List<Part>()
         {
             new Part(1, 380, 1, 0.10, "AMD Ryzen 5 2600", PartType.Cpu, "AMD", true),

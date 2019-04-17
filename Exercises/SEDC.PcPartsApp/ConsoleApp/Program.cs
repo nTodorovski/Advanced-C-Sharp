@@ -15,6 +15,11 @@ namespace ConsoleApp
             var parts = Db.Parts;
             var modules = Db.Modules;
             var configurations = Db.Configurations;
+            ServiceParts serviceParts = new ServiceParts();
+            List<Part> cartP = new List<Part>();
+            List<Module> cartM = new List<Module>();
+            List<Configuration> cartC = new List<Configuration>();
+            
             while (true)
             {
                 Console.Clear();
@@ -28,22 +33,31 @@ namespace ConsoleApp
                 {
                     while (true)
                     {
-                        ServiceParts.ChooseAction();
+                        serviceParts.ChooseAction();
                         int input1 = int.Parse(Console.ReadLine());
                         if(input1 == 1)
                         {
-                            ServiceParts.ShowProductsByPart(parts);
-                            break;
+                            var nesto = serviceParts.ShowProductsByPart(parts,cartP,cartM,cartC);
+                            if (!nesto)
+                            {
+                                break;
+                            }
                         }
                         else if(input1 == 2)
                         {
-                            ServiceParts.ShowByPriceOfPart(parts);
-                            break;
+                            var nesto = serviceParts.ShowByPriceOfPart(parts, cartP, cartM, cartC);
+                            if (!nesto)
+                            {
+                                break;
+                            }
                         }
                         else if(input1 == 3)
                         {
-                            ServiceParts.ShowByTypeOfPart(parts);
-                            break;
+                            var nesto = serviceParts.ShowByTypeOfPart(parts, cartP, cartM, cartC);
+                            if (!nesto)
+                            {
+                                break;
+                            }
                         }
                         else
                         {
@@ -51,13 +65,12 @@ namespace ConsoleApp
                             Console.ReadLine();
                         }
                     }
-                    break;   
                 }
                 else if(input == 2)
                 {
                     while (true)
                     {
-                        ServiceParts.ChooseAction();
+                        serviceParts.ChooseAction();
                         int input1 = int.Parse(Console.ReadLine());
                         if (input1 == 1)
                         {
@@ -86,7 +99,7 @@ namespace ConsoleApp
                 {
                     while (true)
                     {
-                        ServiceParts.ChooseAction();
+                        serviceParts.ChooseAction();
                         int input1 = int.Parse(Console.ReadLine());
                         if (input1 == 1)
                         {

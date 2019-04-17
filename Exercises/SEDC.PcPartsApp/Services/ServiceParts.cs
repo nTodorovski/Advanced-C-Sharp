@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public static class ServiceParts
+    public class ServiceParts
     {
-        public static void ChooseAction()
+        public void ChooseAction()
         {
             Console.WriteLine("Choose Action:");
             Console.WriteLine("1. Show Products");
@@ -17,15 +17,38 @@ namespace Services
             Console.WriteLine("3. By Type");
         }
 
-        public static void ShowProductsByPart(List<Part> items)
+        public bool ShowProductsByPart(List<Part> items, List<Part> cartP ,List<Module> cartM, List<Configuration> cartC)
         {
-            foreach (var part in items)
+            while (true)
             {
-                Console.WriteLine($"Name: {part.Name}");
+                Console.Clear();
+                int counter = 1;
+                foreach (var part in items)
+                {
+                    Console.WriteLine($"{counter}. Name: {part.Name}");
+                    counter++;
+                }
+                Console.WriteLine("Choose product to buy:");
+                int input = int.Parse(Console.ReadLine());
+
+                if (input < 1 || input > counter)
+                {
+                    Console.WriteLine("Enter valid number. Press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+                else
+                {
+                    cartP.Add(items[input - 1]);
+                    Part boughtPart = items[input - 1];
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    var nesto = UiService.NextAction(ShowProductsByPart, items, cartP, cartM, cartC);
+                    return nesto;
+                }
             }
         }
 
-        public static void ShowByPriceOfPart(List<Part> items)
+        public bool ShowByPriceOfPart(List<Part> items, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
         {
             while (true)
             {
@@ -66,22 +89,39 @@ namespace Services
                 }
                 var itemList = items.Where(x => x.Price > min && x.Price < max).ToList();
 
-                if(itemList.Count == 0)
+                if (itemList.Count == 0)
                 {
                     Console.WriteLine("There are no parts in that range!Please try again.Press any key.");
                     Console.ReadLine();
                     continue;
                 }
                 Console.Clear();
+                int counter = 1;
                 foreach (var item in itemList)
                 {
-                    Console.WriteLine($"Name: {item.Name}, Price: {item.Price}");
+                    Console.WriteLine($"{counter}. Name: {item.Name}, Price: {item.Price}");
+                    counter++;
                 }
-                break;
+                Console.WriteLine("Choose Product to buy:");
+                int input = int.Parse(Console.ReadLine());
+                if (input < 1 || input > counter)
+                {
+                    Console.WriteLine("Enter valid number. Press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+                else
+                {
+                    cartP.Add(itemList[input - 1]);
+                    Part boughtPart = itemList[input - 1];
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    var nesto = UiService.NextAction(ShowByPriceOfPart, items, cartP, cartM, cartC);
+                    return nesto;
+                }
             }
         }
 
-        public static void ShowByTypeOfPart(List<Part> parts)
+        public bool ShowByTypeOfPart(List<Part> parts, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
         {
             while (true)
             {
@@ -102,73 +142,64 @@ namespace Services
                 Console.WriteLine("13.Monitor");
                 Console.WriteLine("14.Mouse");
                 Console.WriteLine("15.Keyboard");
-                bool flag = true;
                 int input = int.Parse(Console.ReadLine());
-                switch (input)
+                if (input < 1 || input > 15)
                 {
-                    case 1:
-                        ShowTypes(input, parts);
-                        break;
-                    case 2:
-                        ShowTypes(input, parts);
-                        break;
-                    case 3:
-                        ShowTypes(input, parts);
-                        break;
-                    case 4:
-                        ShowTypes(input, parts);
-                        break;
-                    case 5:
-                        ShowTypes(input, parts);
-                        break;
-                    case 6:
-                        ShowTypes(input, parts);
-                        break;
-                    case 7:
-                        ShowTypes(input, parts);
-                        break;
-                    case 8:
-                        ShowTypes(input, parts);
-                        break;
-                    case 9:
-                        ShowTypes(input, parts);
-                        break;
-                    case 10:
-                        ShowTypes(input, parts);
-                        break;
-                    case 11:
-                        ShowTypes(input, parts);
-                        break;
-                    case 12:
-                        ShowTypes(input, parts);
-                        break;
-                    case 13:
-                        ShowTypes(input, parts);
-                        break;
-                    case 14:
-                        ShowTypes(input, parts);
-                        break;
-                    case 15:
-                        ShowTypes(input, parts);
-                        break;
-                    default:
-                        Console.WriteLine("Not a valid number.Please try again.");
-                        flag = false;
-                        break;
-                }
-                if (!flag)
+                    Console.WriteLine("Enter valid number of product. Press any key and try again!");
+                    Console.ReadLine();
                     continue;
-                break;
+                }
+                else
+                {
+                    var nesto = ShowTypes(input, parts, cartP, cartM , cartC);
+                    return nesto;
+                }
             }
         }
 
-        public static void ShowTypes(int number, List<Part> parts)
+        public bool ShowTypes(int number, List<Part> parts, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
         {
+            Console.Clear();
+            int counter = 1;
             foreach (var item in parts)
             {
                 if ((int)item.Type == number)
                 {
-                    Console.WriteLine($"Name: {item.Name}, Type: {item.Type}");
+                    Console.WriteLine($"{counter}. Name: {item.Name}, Type: {item.Type}");
+                    counter++;
+                }
+            }
+            var nesto = BuyProduct(counter, number, parts, cartP, cartM, cartC);
+            return nesto;
+        }
+
+        public bool BuyProduct(int counter, int number, List<Part> parts, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
+        {
+            while (true)
+            {
+                Console.WriteLine("Choose Part to Buy:");
+                int input = int.Parse(Console.ReadLine());
+                if (input < 1 || input > counter)
+                {
+                    Console.WriteLine("Please enter valid number of product. Please press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+                else
+                {
+                    List<Part> selectedParts = new List<Part>();
+                    foreach (var item in parts)
+                    {
+                        if ((int)item.Type == number)
+                        {
+                            selectedParts.Add(item);
+                        }
+                    }
+                    cartP.Add(selectedParts[input - 1]);
+                    Part boughtPart = selectedParts[input - 1];
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    var nesto = UiService.NextAction(ShowByTypeOfPart, parts, cartP, cartM, cartC);
+                    return nesto;
                 }
             }
         }
