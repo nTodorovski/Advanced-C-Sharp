@@ -9,22 +9,44 @@ namespace Services
 {
     public class ServiceConfigurations
     {
-        public static void ShowProductsByConfigurations(List<Configuration> configurations)
+        public static bool ShowProductsByConfigurations(List<Configuration> configurations, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
         {
-            foreach (var configuration in configurations)
+            while (true)
             {
-                Console.WriteLine($"Configuration Name: {configuration.Title}");
-                Console.WriteLine();
-                foreach (var module in configuration.Modules)
+                int counter = 1;
+                Console.Clear();
+                foreach (var configuration in configurations)
                 {
-                    Console.WriteLine($"Module Name: {module.Type}");
-                    foreach (var part in module.Parts)
-                    {
-                        Console.WriteLine($"Part: {part.Name}");
-                    }
+                    Console.WriteLine($"{counter}. Configuration Name: {configuration.Title}");
+                    counter++;
                     Console.WriteLine();
+                    foreach (var module in configuration.Modules)
+                    {
+                        Console.WriteLine($"Module Name: {module.Type}");
+                        foreach (var part in module.Parts)
+                        {
+                            Console.WriteLine($"Part: {part.Name}");
+                        }
+                        Console.WriteLine();
+                    }
+                    Console.WriteLine("--------------------------------");
                 }
-                Console.WriteLine("----------------------------------");
+                Console.WriteLine("Choose product to buy:");
+                int input = int.Parse(Console.ReadLine());
+                if (input < 1 || input > counter)
+                {
+                    Console.WriteLine("Enter valid number. Press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+                else
+                {
+                    cartC.Add(configurations[input - 1]);
+                    var boughtPart = configurations[input - 1];
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Title} is added to your cart!");
+                    var nesto = UiService.NextAction(ShowProductsByConfigurations, configurations, cartP, cartM, cartC);
+                    return nesto;
+                }
             }
         }
 

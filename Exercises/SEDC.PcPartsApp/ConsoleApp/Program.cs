@@ -103,8 +103,11 @@ namespace ConsoleApp
                         int input1 = int.Parse(Console.ReadLine());
                         if (input1 == 1)
                         {
-                            ServiceConfigurations.ShowProductsByConfigurations(configurations);
-                            break;
+                            var nesto = ServiceConfigurations.ShowProductsByConfigurations(configurations, cartP, cartM, cartC);
+                            if (!nesto)
+                            {
+                                break;
+                            }
                         }
                         else if (input1 == 2)
                         {
@@ -122,7 +125,6 @@ namespace ConsoleApp
                             Console.ReadLine();
                         }
                     }
-                    break;
                 }
                 else
                 {
