@@ -1,0 +1,7 @@
+C:\Users\code\source\repos\Tinex\Market\bin\Debug\Market.exe.config
+C:\Users\code\source\repos\Tinex\Market\bin\Debug\Market.exe
+C:\Users\code\source\repos\Tinex\Market\bin\Debug\Market.pdb
+C:\Users\code\source\repos\Tinex\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+C:\Users\code\source\repos\Tinex\Market\obj\Debug\Market.exe
+C:\Users\code\source\repos\Tinex\Market\obj\Debug\Market.pdb
+C:\Users\code\source\repos\Tinex\Market\obj\Debug\Market.csprojAssemblyReference.cache
