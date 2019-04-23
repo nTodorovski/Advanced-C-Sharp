@@ -1,0 +1,7 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\bin\Debug\BasicOperators.exe.config
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\bin\Debug\BasicOperators.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\bin\Debug\BasicOperators.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\obj\Debug\BasicOperators.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\obj\Debug\BasicOperators.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\obj\Debug\BasicOperators.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\BasicOperators\obj\Debug\BasicOperators.pdb

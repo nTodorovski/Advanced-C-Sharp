@@ -1,0 +1,7 @@
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\bin\Debug\CustomersSorting.exe.config
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\bin\Debug\CustomersSorting.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\bin\Debug\CustomersSorting.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\obj\Debug\CustomersSorting.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\obj\Debug\CustomersSorting.exe
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\obj\Debug\CustomersSorting.pdb
+C:\Users\todor\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvnaced - Class9\CSharpAdvanced-Class9\CustomersSorting\obj\Debug\CustomersSorting.csprojAssemblyReference.cache
