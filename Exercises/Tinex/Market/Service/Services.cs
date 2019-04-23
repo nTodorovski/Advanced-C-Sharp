@@ -11,12 +11,39 @@ namespace Market.Service
 {
 	public static class Services
 	{
+        public static double EnterId()
+        {
+            while (true)
+            {
+                Console.WriteLine("Enter ID:");
+                string input = Console.ReadLine();
+                bool flag = false;
+                foreach (var item in Db.users)
+                {
+                    if (item.Id == input)
+                    {
+                        flag = true;
+                        if (item.Id.Contains("mart"))
+                        {
+                            Console.WriteLine($"Hello {item.Id}. You have 10% discount on all products!");
+                            return 0.1;
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Hello {item.Id}!");
+                        }
+                    }
+                }
+                if (flag == false)
+                    Console.WriteLine("No such a user!");
+                return 0;
+            }
+        }
+
 		public static void GetAllItems()
 		{
-			foreach (var item in Db.allProducts)
-			{
-				item.PrintProduct();
-			}
+            var popust = EnterId();
+            SortItems(Db.allProducts, popust);
 		}
 
 		public static void FilterItems()
@@ -25,7 +52,8 @@ namespace Market.Service
 			{
 				int input = 0;
 				bool flag = false;
-				Console.WriteLine("Filter Items By:");
+                var popust = EnterId();
+                Console.WriteLine("Filter Items By:");
 				Console.WriteLine("1. Company");
 				Console.WriteLine("2. Type");
 				bool result = int.TryParse(Console.ReadLine(), out input);
@@ -43,7 +71,8 @@ namespace Market.Service
 						{
 							while (true)
 							{
-								Console.WriteLine("Enter Name of Company");
+                                
+                                Console.WriteLine("Enter Name of Company");
 								string name = Console.ReadLine();
 								var results = Db.allProducts.Where(x => x.Company == name).ToList();
 								if (results.Count == 0)
@@ -54,12 +83,9 @@ namespace Market.Service
 								}
 								else
 								{
-									foreach (var item in results)
-									{
-										item.PrintProduct();
-									}
-									flag = true;
-									break;
+                                    SortItems(results, popust);
+                                    flag = true;
+                                    break;
 								}
 							}
 						}
@@ -67,7 +93,7 @@ namespace Market.Service
 						{
 							while (true)
 							{
-								Console.WriteLine("Enter the name of the Type of the Product:");
+                                Console.WriteLine("Enter the name of the Type of the Product:");
 								Console.WriteLine("Meat");
 								Console.WriteLine("Fruit");
 								Console.WriteLine("Vegetables");
@@ -84,10 +110,7 @@ namespace Market.Service
 								}
 								else
 								{
-									foreach (var item in results)
-									{
-										item.PrintProduct();
-									}
+                                    SortItems(results, popust);
 									flag = true;
 									break;
 								}
@@ -140,7 +163,8 @@ namespace Market.Service
 			{
 				int min = 0;
 				int max = 0;
-				Console.WriteLine("Enter Minimum Price more than 29:");
+                var popust = EnterId();
+                Console.WriteLine("Enter Minimum Price more than 29:");
 				bool result1 = int.TryParse(Console.ReadLine(), out min);
 				Console.WriteLine("Enter Maximum Price not greater than 257:");
 				bool result2 = int.TryParse(Console.ReadLine(), out max);
@@ -161,10 +185,7 @@ namespace Market.Service
 					else
 					{
 						var results = Db.allProducts.Where(x => x.Price >= min && x.Price <= max).ToList();
-						foreach (var item in results)
-						{
-							item.PrintProduct();
-						}
+                        SortItems(results, popust);
 						break;
 					}
 				}
@@ -177,15 +198,127 @@ namespace Market.Service
 			}
 		}
 
-		public static void SortItems()
-		{
-			int input = 0;
-			Console.WriteLine("Sort Items By:");
-			Console.WriteLine("1. Copmany Name");
-			Console.WriteLine("2. ID");
-			Console.WriteLine("3. Price");
+        public static void AscDsc(List<Item> lista, int input, double popust)
+        {
+            while (true)
+            {
+                if(popust > 0)
+                {
+                    foreach (var item in lista)
+                    {
+                        item.Price = item.Price - (item.Price * popust);
+                    }
+                }
+                Console.Clear();
+                int input1 = 0;
+                Console.WriteLine("Choose Action:");
+                Console.WriteLine("1. Ascending");
+                Console.WriteLine("2. Descending");
+                bool result1 = int.TryParse(Console.ReadLine(), out input1);
+                if (result1)
+                {
+                    if (input1 == 1)
+                    {
+                        if(input == 1)
+                        {
+                            List<Item> novaLista = lista.OrderBy(x => x.Company).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                        else if(input == 2)
+                        {
+                            List<Item> novaLista = lista.OrderBy(x => x.Id).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                        else if(input == 3)
+                        {
+                            List<Item> novaLista = lista.OrderBy(x => x.Price).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                    }
+                    else if (input1 == 2)
+                    {
+                        if (input == 1)
+                        {
+                            List<Item> novaLista = lista.OrderByDescending(x => x.Company).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                        else if (input == 2)
+                        {
+                            List<Item> novaLista = lista.OrderByDescending(x => x.Id).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                        else if (input == 3)
+                        {
+                            List<Item> novaLista = lista.OrderByDescending(x => x.Price).ToList();
+                            foreach (var item in novaLista)
+                            {
+                                item.PrintProduct();
+                            }
+                            break;
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("Not a valid number.Press any key and try again!");
+                        Console.ReadLine();
+                        continue;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Not a valid format (number expexted).Press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+            }
+        }
 
-			bool result = int.TryParse(Console.ReadLine(), out input);
+		public static void SortItems(List<Item> lista, double popust)
+		{
+            while (true)
+            {
+                int input = 0;
+                Console.WriteLine("Sort Items By:");
+                Console.WriteLine("1. Copmany Name");
+                Console.WriteLine("2. ID");
+                Console.WriteLine("3. Price");
+
+                bool result = int.TryParse(Console.ReadLine(), out input);
+                if (result)
+                {
+                    if(input == 1 || input == 2 || input == 3)
+                    {
+                        AscDsc(lista, input, popust);
+                        break;
+                    }
+                }
+                else
+                {
+                    Console.WriteLine("Not a valid format (number expexted).Press any key and try again!");
+                    Console.ReadLine();
+                    continue;
+                }
+            }
 		}
 	}
 }

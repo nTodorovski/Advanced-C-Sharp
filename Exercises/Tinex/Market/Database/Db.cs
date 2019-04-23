@@ -9,6 +9,16 @@ namespace Market.Database
 {
 	public static class Db
 	{
+        public static List<User> users = new List<User>()
+        {
+            new User("mart2402"),
+            new User("hakd2402"),
+            new User("pero2402"),
+            new User("kiro2402"),
+            new User("mirko2402"),
+            new User("stanko2402")
+        };
+
 		public static List<Item> allProducts = new List<Item>()
 		{
 			new Meat(1,123,"Pilesko","Pekabesko"),

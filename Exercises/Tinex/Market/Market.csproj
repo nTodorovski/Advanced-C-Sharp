@@ -47,6 +47,7 @@
     <Compile Include="Classes\Fruit.cs" />
     <Compile Include="Classes\Item.cs" />
     <Compile Include="Classes\Meat.cs" />
+    <Compile Include="Classes\User.cs" />
     <Compile Include="Classes\Vegetables.cs" />
     <Compile Include="Database\Db.cs" />
     <Compile Include="Enum\ProductType.cs" />
