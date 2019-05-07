@@ -12,10 +12,30 @@ namespace Services
     {
         public static void ChooseAction()
         {
+            Console.Clear();
             Console.WriteLine("Choose Action:");
             Console.WriteLine("1. Show Products");
             Console.WriteLine("2. By Price");
             Console.WriteLine("3. By Type");
+        }
+
+        public static int HowMany()
+        {
+            Console.WriteLine("How many products of that you want to buy?");
+            int brojka = 0;
+            while (true)
+            {
+                bool result = int.TryParse(Console.ReadLine(), out brojka);
+                if (result)
+                {
+                    return brojka;
+                }
+                else
+                {
+                    Console.WriteLine("Enter valid number.Please try again!");
+                    continue;
+                }
+            }
         }
 
         public static bool NextAction<T>(Func<List<T>, List<Part>, List<Module>, List<Configuration>, bool> method, List<T> items, List<Part> cartP, List<Module> cartM, List<Configuration> cartC)
@@ -97,34 +117,42 @@ namespace Services
                     Console.WriteLine($"Configuration Price - {confPrice}");
                     sum = partsPrice + modulesPrice + confPrice;
                     Console.WriteLine($"Price of all products = {sum}");
-
+                    Console.WriteLine("-------------------------------------------------");
                     Console.WriteLine("Send Reciept via:");
                     Console.WriteLine("1. SMS");
                     Console.WriteLine("2. E-Mail");
                     Console.WriteLine("3. Mail (Post)");
+                    cartP.Clear();
+                    cartM.Clear();
+                    cartC.Clear();
                     while (true)
                     {
                         int action = 0;
                         bool result = int.TryParse(Console.ReadLine(), out action);
                         if (result)
                         {
-                            switch (action)
+                            if(action == 1)
                             {
-                                case 1:
-                                    Thread.Sleep(3000);
-                                    Console.WriteLine("Reciept sent via SMS!");
-                                    break;
-                                case 2:
-                                    Thread.Sleep(3000);
-                                    Console.WriteLine("Reciept sent via E-Mail!");
-                                    break;
-                                case 3:
-                                    Thread.Sleep(3000);
-                                    Console.WriteLine("Reciept sent via Mail (Post)!");
-                                    break;
-                                default:
-                                    Console.WriteLine("Not a valid number! Please try again!");
-                                    continue;
+                                Thread.Sleep(3000);
+                                Console.WriteLine("Reciept sent via SMS!");
+                                break;
+                            }
+                            else if(action == 2)
+                            {
+                                Thread.Sleep(3000);
+                                Console.WriteLine("Reciept sent via E-Mail!");
+                                break;
+                            }
+                            else if(action == 3)
+                            {
+                                Thread.Sleep(3000);
+                                Console.WriteLine("Reciept sent via Mail (Post)!");
+                                break;
+                            }
+                            else
+                            {
+                                Console.WriteLine("Not a valid number! Please try again!");
+                                continue;
                             }
                         }
                         else

@@ -31,9 +31,13 @@ namespace Services
                 }
                 else
                 {
-                    cartP.Add(parts[input - 1]);
+                    int brojce = UiService.HowMany();
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartP.Add(parts[input - 1]);
+                    }
                     Part boughtPart = parts[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowProductsByPart, parts, cartP, cartM, cartC);
                     return nesto;
                 }
@@ -104,9 +108,13 @@ namespace Services
                 }
                 else
                 {
-                    cartP.Add(itemList[input - 1]);
+                    int brojce = UiService.HowMany();
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartP.Add(itemList[input - 1]);
+                    }
                     Part boughtPart = itemList[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowByPriceOfPart, parts, cartP, cartM, cartC);
                     return nesto;
                 }
@@ -179,6 +187,7 @@ namespace Services
                 }
                 else
                 {
+                    int brojce = UiService.HowMany();
                     List<Part> selectedParts = new List<Part>();
                     foreach (var item in parts)
                     {
@@ -187,9 +196,12 @@ namespace Services
                             selectedParts.Add(item);
                         }
                     }
-                    cartP.Add(selectedParts[input - 1]);
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartP.Add(selectedParts[input - 1]);
+                    }
                     Part boughtPart = selectedParts[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Name} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowByTypeOfPart, parts, cartP, cartM, cartC);
                     return nesto;
                 }

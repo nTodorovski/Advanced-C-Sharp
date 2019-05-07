@@ -41,9 +41,13 @@ namespace Services
                 }
                 else
                 {
-                    cartC.Add(configurations[input - 1]);
+                    int brojce = UiService.HowMany();
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartC.Add(configurations[input - 1]);
+                    }
                     var boughtPart = configurations[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Title} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Title} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowProductsByConfigurations, configurations, cartP, cartM, cartC);
                     return nesto;
                 }
@@ -115,9 +119,13 @@ namespace Services
                 }
                 else
                 {
-                    cartC.Add(itemList[input - 1]);
+                    int brojce = UiService.HowMany();
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartC.Add(itemList[input - 1]);
+                    }
                     Configuration boughtPart = itemList[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowByPriceOfConfigurations, configurations, cartP, cartM, cartC);
                     return nesto;
                 }
@@ -185,9 +193,13 @@ namespace Services
                             selectedParts.Add(item);
                         }
                     }
-                    cartC.Add(selectedParts[input - 1]);
+                    int brojce = UiService.HowMany();
+                    for (int i = 0; i < brojce; i++)
+                    {
+                        cartC.Add(selectedParts[input - 1]);
+                    }
                     Configuration boughtPart = selectedParts[input - 1];
-                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Title} is added to your cart!");
+                    Console.WriteLine($"Product of type: {boughtPart.Type} {boughtPart.Title} is added to your cart! Quantity: {brojce}");
                     var nesto = UiService.NextAction(ShowByTypeOfConfigurations, configurations, cartP, cartM, cartC);
                     return nesto;
                 }
