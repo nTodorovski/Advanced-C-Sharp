@@ -12,3 +12,10 @@ C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.exe
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\bin\Debug\Market.exe.config
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\bin\Debug\Market.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\bin\Debug\Market.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Tinex\Market\obj\Debug\Market.pdb

@@ -25,3 +25,12 @@ C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Con
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.csproj.CopyComplete
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.dll
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\bin\Debug\Services.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\bin\Debug\Services.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\bin\Debug\Entities.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\bin\Debug\Entities.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\Services\obj\Debug\Services.pdb

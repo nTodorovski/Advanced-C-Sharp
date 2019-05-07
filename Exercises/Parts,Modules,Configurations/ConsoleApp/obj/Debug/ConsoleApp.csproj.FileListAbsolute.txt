@@ -34,3 +34,15 @@ C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Con
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.exe
 C:\Users\nikola.ztodorovski\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\ConsoleApp.exe.config
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\ConsoleApp.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\ConsoleApp.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\Entities.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\Services.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\Entities.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\bin\Debug\Services.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.csproj.CopyComplete
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\Parts,Modules,Configurations\ConsoleApp\obj\Debug\ConsoleApp.pdb

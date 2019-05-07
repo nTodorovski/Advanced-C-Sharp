@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace Services
@@ -72,11 +73,66 @@ namespace Services
                 else if (input == 4)
                 {
                     Console.Clear();
+                    Console.WriteLine("Products bought:");
+                    Console.WriteLine("-------------------------------------------------");
+                    foreach (var item in cartP)
+                    {
+                        Console.WriteLine($"{item.Name} - ({item.Price}$)");
+                    }
+                    foreach (var item in cartM)
+                    {
+                        Console.WriteLine($"{item.Type} - ({item.Price}$)");
+                    }
+                    foreach (var item in cartC)
+                    {
+                        Console.WriteLine($"{item.Title} - ({item.Price}$)");
+                    Console.WriteLine("-------------------------------------------------");
+                    }
                     double sum = 0;
-                    sum += cartP.Sum(x => x.Price);
-                    sum += cartM.Sum(x => x.Price);
-                    sum += cartC.Sum(x => x.Price);
+                    double partsPrice = cartP.Sum(x => x.Price);
+                    Console.WriteLine($"Parts Price - {partsPrice}");
+                    double modulesPrice = cartM.Sum(x => x.Price);
+                    Console.WriteLine($"Modules Price - {modulesPrice}");
+                    double confPrice= cartC.Sum(x => x.Price);
+                    Console.WriteLine($"Configuration Price - {confPrice}");
+                    sum = partsPrice + modulesPrice + confPrice;
                     Console.WriteLine($"Price of all products = {sum}");
+
+                    Console.WriteLine("Send Reciept via:");
+                    Console.WriteLine("1. SMS");
+                    Console.WriteLine("2. E-Mail");
+                    Console.WriteLine("3. Mail (Post)");
+                    while (true)
+                    {
+                        int action = 0;
+                        bool result = int.TryParse(Console.ReadLine(), out action);
+                        if (result)
+                        {
+                            switch (action)
+                            {
+                                case 1:
+                                    Thread.Sleep(3000);
+                                    Console.WriteLine("Reciept sent via SMS!");
+                                    break;
+                                case 2:
+                                    Thread.Sleep(3000);
+                                    Console.WriteLine("Reciept sent via E-Mail!");
+                                    break;
+                                case 3:
+                                    Thread.Sleep(3000);
+                                    Console.WriteLine("Reciept sent via Mail (Post)!");
+                                    break;
+                                default:
+                                    Console.WriteLine("Not a valid number! Please try again!");
+                                    continue;
+                            }
+                        }
+                        else
+                        {
+                            Console.WriteLine("Not a valid input!");
+                            continue;
+                        }
+                    }
                 }
                 else
                 {
