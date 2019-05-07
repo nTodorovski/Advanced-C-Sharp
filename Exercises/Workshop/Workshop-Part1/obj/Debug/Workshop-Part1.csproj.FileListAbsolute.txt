@@ -1,0 +1,7 @@
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\bin\Debug\Workshop-Part1.exe.config
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\bin\Debug\Workshop-Part1.exe
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\bin\Debug\Workshop-Part1.pdb
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\obj\Debug\Workshop-Part1.csprojAssemblyReference.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\obj\Debug\Workshop-Part1.csproj.CoreCompileInputs.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\obj\Debug\Workshop-Part1.exe
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g3\CSharpAdvanced - Class14\CSharpAdvanced - Class14 - Workshp - Part1\Workshop\Workshop-Part1\obj\Debug\Workshop-Part1.pdb
