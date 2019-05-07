@@ -8,3 +8,13 @@ C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\Conso
 C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

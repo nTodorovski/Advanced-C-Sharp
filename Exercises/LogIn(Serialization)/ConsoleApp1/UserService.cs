@@ -12,7 +12,7 @@ namespace ConsoleApp1
     {
         public void Register()
         {
-            string directoryPath = @"C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\papka";
+            string directoryPath = @"C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\papka";
             Console.WriteLine("Enter ID:");
             int id = int.Parse(Console.ReadLine());
             Console.WriteLine("Enter Username:");
@@ -72,7 +72,7 @@ namespace ConsoleApp1
         }
         public void LogIn()
         {
-            string directoryPath = @"C:\Users\nikola.ztodorovski\source\repos\ConsoleApp1\ConsoleApp1\papka";
+            string directoryPath = @"C:\Users\todor\Desktop\Advanced-C-Sharp\Exercises\LogIn(Serialization)\ConsoleApp1\papka";
             string result = String.Empty;
             using (StreamReader sr = new StreamReader(directoryPath + @"\database.json"))
             {
@@ -86,10 +86,21 @@ namespace ConsoleApp1
             Console.WriteLine("Enter Password:");
             string password = Console.ReadLine();
 
+            LoggerService log = new LoggerService();
             foreach (var userce in users)
             {
                 if(userce.Username == username && userce.Password == password)
                 {
+                    if(!File.Exists(directoryPath + @"\log.txt"))
+                    {
+                        File.Create(directoryPath + @"\log.txt").Close();
+                        log.Log(userce.Username, userce.Password, directoryPath + @"\log.txt");
+                    }
+                    else
+                    {
+                        log.Log(userce.Username, userce.Password, directoryPath + @"\log.txt");
+                    }
+                    
                     Console.WriteLine($"Welcome {userce.Username}!");
                 }
             }
