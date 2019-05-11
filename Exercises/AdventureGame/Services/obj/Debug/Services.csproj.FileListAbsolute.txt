@@ -1,0 +1,11 @@
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Services.dll
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Services.pdb
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Entities.dll
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Entities.pdb
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\bin\Debug\Newtonsoft.Json.xml
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\obj\Debug\Services.csprojAssemblyReference.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\obj\Debug\Services.csproj.CoreCompileInputs.cache
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\obj\Debug\Services.csproj.CopyComplete
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\obj\Debug\Services.dll
+C:\Users\nikola.ztodorovski\Desktop\sedc7-06-csharpadvanced\g4\Class 15\AdventureGame\Services\obj\Debug\Services.pdb
